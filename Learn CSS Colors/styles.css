@@ -1,0 +1,46 @@
+h1 {
+    text-align: center;
+}
+
+.container{
+    height: 80px;
+    width: 20%;
+    margin:10px auto;
+    padding: 40px;
+}
+
+.red{
+    background:linear-gradient(rgb(212, 40, 40),rgb(238, 28, 115),rgb(212,40,40));
+    box-shadow: 0 0 20px 0 red;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.green{
+    background:linear-gradient(rgb(7, 90, 7),rgb(21, 236, 21),rgb(5, 55, 5));
+    box-shadow: 0 0 20px 0 green;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.blue{
+    background:linear-gradient(rgb(6, 6, 81),rgb(0,0,255),rgb(0,0,255));
+    box-shadow: 0 0 20px 0 blue;
+    height: 25px;
+    margin-top: 10px;
+}
+.cap,.sleeve{
+    display: inline-block;
+}
+
+.cap{
+    height: 25px;
+    width: 60px;
+}
+
+.sleeve{
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255,255,255,0.5);
+    border-left: 10px double rgba(0,0,0,0.5);
+}

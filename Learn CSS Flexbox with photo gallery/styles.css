@@ -1,0 +1,23 @@
+.header{
+    background-color: #0a0a23;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border:3px solid orange;
+}
+.gallery img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    object-fit: cover;
+    justify-content: center;
+}
